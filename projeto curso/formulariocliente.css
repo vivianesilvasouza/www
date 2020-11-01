@@ -2,7 +2,7 @@ body {
     width: 1024;
 	margin: 0px auto;
 }
-header  {
+header h2 {
     color: rgb(0, 114, 114);
     width: 1024;
     text-align: center;
@@ -10,7 +10,6 @@ header  {
 aside {
     display: inline;
 }
-
 nav {
     background-color: rgb(206, 234, 250);
     width: 600px;
