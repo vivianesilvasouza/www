@@ -1,0 +1,29 @@
+body {
+    width: 1024;
+	margin: 0px auto;
+}
+header  {
+    color: rgb(0, 114, 114);
+    width: 1024;
+    text-align: center;
+}
+aside {
+    display: inline;
+}
+
+nav {
+    background-color: rgb(206, 234, 250);
+    width: 600px;
+    height: 550px;
+    left: 28%;
+    position: absolute;
+    border: 1px cornflowerblue;
+    border-radius: 20px 20px 20px 20px;
+    margin: 1px 6px 6px 6px;
+    box-shadow: 0 0 5px 0 rgba(168, 168, 168, 0.5);
+}
+form {
+    margin: 5px;
+    padding: 8px;
+    line-height: 30px;
+}
