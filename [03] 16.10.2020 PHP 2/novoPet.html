@@ -1,0 +1,65 @@
+<html>
+	<!-- salvar como novoPet.html 
+		dentro da página de projetos
+		[02] 02.10.2020 FORM1
+		no www do Wamp
+	-->
+	<head>
+		<title>SGP - Cadastro de Pet</title>
+	</head>
+	
+	<body>
+		<h2>Inclusão de Pet</h2>
+		
+		<form	action="incluirPet.php"
+				method="get">
+		
+			Nome:
+			<input 	type="text"
+                    name="nome"
+                    required
+					maxlength="30"
+					size="30"
+					placeholder="Informe o nome do PET">
+			<!-- size é só visual -->
+			<br>
+			Sexo:
+			<input type="radio" name="sexo" value="M"> Masculino
+			<input type="radio" name="sexo" value="F" checked> Feminino
+			<br>
+			Tipo:
+			<select name="tipo">
+				<option value="">Escolha</option>
+				<option value="C">Cachorro</option>
+				<option value="A">Calopsita</option>
+				<option value="G">Gato</option>
+				<option value="P">Pássaro</option>
+				<option value="R">Réptil</option>
+				<option value="O">Outros</option>
+			</select>
+			<br>
+			Dono:
+			<input 	type="text"
+                    name="nomeDono"
+                    required
+					maxlength="50"
+					size="30">
+			<br>
+			
+			<fieldset>
+				<legend>Dados Médicos:</legend>
+				Idade:
+				<input	type="number"
+                        name="idade"
+                        value="0"
+						min="0"
+						max="100">
+			</fieldset>
+			
+			<hr>
+			<input type="submit" value="Cadastrar">
+		</form>
+		
+	</body>
+	
+</html>
